@@ -49,7 +49,7 @@ const DataBase = {
 	const Panel = {
 		"title": "☁ 𝕎𝔸ℝℙ ᴾˡᵘˢ ☁",
 		"icon": "smoke.fill",
-    "icon-color": "#ffa500",
+                "icon-color": "#ffa500",
 		"content": `${Configs.i18n[Language].IPv4}: ${Trace4?.ip}\n`
 			+ `${Configs.i18n[Language].IPv6}: ${Trace6?.ip}\n`
 			+ `${Configs.i18n[Language].COLO}: ${Trace4?.loc ?? Trace6?.loc} | ${Trace4?.colo ?? Trace6?.colo}\n`
